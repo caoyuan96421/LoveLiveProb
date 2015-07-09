@@ -5,11 +5,14 @@
  */
 package lovelive;
 
+import java.math.BigInteger;
+
 /**
  *
  * @author Yuan
  */
 public class Config {
-    public static final int N=100;
-    public static final int K=2000;
+    public static final int N=10;
+    public static final int K=20*N;
+    public static final long D=1000000000000L;
 }
